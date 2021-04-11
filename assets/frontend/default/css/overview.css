@@ -1,0 +1,376 @@
+/*  Conent body css for overview, QA, Notes and announcement */
+    section .section-title {
+        text-align: center;
+        color: #007b5e;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+    }
+    #tabs{
+        /*background: #007b5e;*/
+        /*color: #eee;*/
+    }
+    #tabs h6.section-title{
+        /*color: #eee;*/
+    }
+
+    #tabs .main-tab .main-link.show .main-link, .main-tab .main-link.active {
+        /*color: #f3f3f3;*/
+        background-color: transparent;
+        border-color: transparent transparent #f3f3f3;
+        border-bottom: 4px solid !important;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #tabs .main-tab .main-link {
+        border: 1px solid transparent;
+        border-top-left-radius: .25rem;
+        border-top-right-radius: .25rem;
+        /*color: #eee;*/
+        font-size: 20px;
+    }
+
+ .child-tab .child-view-tab{
+        border: 1px solid transparent;
+        border-top-left-radius: .25rem;
+        border-top-right-radius: .25rem;
+        /*color: #eee;*/
+        font-size: 20px;
+   }
+   .nav-tabs {
+     border-bottom: 0px solid #dee2e6; 
+   }
+
+   .nav-fill .nav-item {
+    -ms-flex: 1 1 auto;
+     flex: 0 1 auto; */
+    text-align: center;
+   }
+
+   #nav-tabContent{
+
+        width: 1350px;
+        padding: 0 159px 0 159px;
+        margin: 20px;
+   
+   }
+   .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        border: 2px solid black;
+        border-color: #2196F3;
+        color: dodgerblue;
+   }
+
+   .nav-link:hover{
+        background: #2196F3;
+        color: white;
+   }
+
+   .user-avatar--initials {
+       background-color: #686f7a;
+       border-radius: 50%;
+       border: 1px solid #fff;
+       color: #fff;
+       font-size: 15px;
+       background-color: rgb(110, 26, 82); 
+       font-size: 15px; 
+       width: 40px; 
+       height: 40px;
+   }
+   .user-avatar {
+       display: inline-block;
+       position: relative;
+       max-width: 100%;
+   }
+   .user-avatar__inner {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+   }
+   .fx-c, .fxc {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: center;
+   }
+   .user span{
+    color: #003845;
+    font-size: 13px;
+   }
+
+   .question-title p, .recipient_name {
+    border-bottom: 1px solid #505763;
+    padding-bottom: 15px; 
+    
+   }
+    .question-title p, .question-section .title{
+        font-weight: bold;
+    }
+
+    .about-this-course {
+        padding: 25px;
+        border-bottom: 1px solid #505763;
+        /*padding-bottom: 25px; */
+    } 
+    .about-this-course h4{
+        font-weight: bold;
+    }
+    .about-this-course h4, span{
+        padding-bottom: 10px;
+    }
+
+    .by-the-numbers, .certificate-section, .features-section, .instructor-section{
+         padding: 40px;
+         border-bottom: 1px solid #505763;
+    }
+    .features-section .device{
+        color: #0f7c90;
+    }
+  .btn:hover, .btn:focus {
+    /* background-color: #992337; */
+    /* border-color: #992337; */
+    color: #0f7c90;
+  }
+  .description-box-lesson {
+    max-height: 260px;
+    /* margin-top: 40px; */
+    margin-bottom: 40px;
+  }
+  .what-you-get{
+    margin-top: 10px;
+
+  }
+  .what-you-get-title{
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .what-you-get__items{
+    font-size: 12px;
+  }
+  .requirements-title{
+    font-size: 14px;
+  }
+  .requirements__list{
+    font-size: 12px;
+  }
+  .replay{
+    cursor: pointer;
+  }
+  .back-to-all-question {
+    border: 2px solid #007791 !important;
+    color: #007791;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .instructor-title{
+    color: darkgray;
+  }
+  .all-replay-tab{
+    font-size: 0;
+  }
+.all-replay-tab li {
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px;
+
+}
+.instructor_name{
+    font-size: 16px;
+    color: #007791;
+}        
+.notes-info span {
+    font-size: 18px;
+    color:  #007791;
+    font-weight: bold;
+    margin-left: 10px;
+}     
+.notes-info p{
+   
+}         
+
+.create-bookmark--create-bookmark-container--2XoIK {
+    display: flex;
+    flex-direction: row;
+    margin: 24px 8px;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 11px 12px;
+    font-size: 15px;
+    line-height: 1.35135;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.create-bookmark--create-bookmark-button--1o-Eb {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #505763;
+    border-color: #cacbcc;
+    width: 100%;
+    margin: 8px 0;
+    background: white !important
+}
+.udlite-in-udheavy button, .udlite-in-udheavy input {
+    background-image: none;
+}
+.create-bookmark--create-bookmark-button--1o-Eb {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #505763;
+}
+.btn-quaternary{
+    border-color: #cacbcc;
+    background-color: #fff;
+    color: #505763;
+}
+.btn-quaternary-save{
+    /*border-color: #cacbcc;*/
+    background-color: #fff;
+    color: #007791;
+    border: 1px solid #007791;
+}
+.btn-quaternary:hover {
+    color: #29303b;
+    background-color: #fff;
+    border-color: #29303b;
+}
+.btn-quaternary-save:hover {
+    color: #29303b;
+    background-color: #fff;
+    border-color: #29303b;
+}
+.create-bookmark--create-bookmark-button--1o-Eb {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #505763;
+    border-color: #cacbcc;
+    width: 100%;
+    margin: 8px 0;
+}
+.create-bookmark--create-bookmark-button-text--2yp8l {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.create-bookmark--create-button-left--1fPc9 {
+    align-self: flex-start;
+}
+.create-bookmark--create-button-right--11jki {
+    align-self: center;
+    font-size: 19px;
+}
+.lecture-bookmark-duration--bookmark-timer--DMSFz {
+   border-radius: 24px;
+   background: #007791;
+   padding: 6px;
+   font-size: 13px;
+   font-weight: 700;
+   line-height: 24px;
+   text-align: center;
+   color: white;
+}
+
+
+.bookmarks--bookmarks-container--1tc-p {
+    padding-top: 8px;
+}
+
+.lecture-bookmark-v2--bookmark-container--yCEMR {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    padding: 8px;
+    border-bottom: 1px solid #505763
+}
+.lecture-bookmark-v2--bookmark-header--2JV49 {
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+}
+.lecture-bookmark-v2--intro--132ek {
+    font-family: sf pro display,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5em;
+    padding-right: 12px;
+    color: #007791;
+}
+.lecture-bookmark-v2--section-actions-container--39_Ok {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.lecture-bookmark-v2--content-container--2f_Tg {
+    margin-left: 64px;
+    margin-top: 12px;
+    background-color: #f7f8fa;
+}
+
+.lecture-bookmark-v2--section-description--2wldi {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lecture-bookmark-v2--intro--132ek {
+    font-family: sf pro display,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5em;
+    padding-right: 12px;
+    color: #007791;
+}
+.lecture-bookmark-v2--section-icon--2qzRb {
+    color: #007791;
+    line-height: 24px;
+    margin-right: 12px;
+}
+.lecture-bookmark-v2--sub-intro--2OzKK {
+    font-size: 14px;
+    color: #686f7a;
+}
+.lecture-bookmark-v2--bookmark-actions--103d_ {
+    align-self: flex-end;
+}
+.lecture-bookmark-v2--qrp-icon--3FfQg {
+    padding: 0 12px;
+    color: #686f7a;
+    border: 0;
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    border: 0;
+    border-top: 1px solid #e8e9eb;
+}
+
+.lecture-bookmark-v2--qrp-icon--3FfQg {
+    padding: 0 12px;
+    color: #686f7a;
+    border: 0;
+}
+
+.overview-add-note{
+  color: #000;
+  
+}

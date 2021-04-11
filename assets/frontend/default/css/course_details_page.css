@@ -1,0 +1,151 @@
+.btn-coupon-code {
+    color: #fff;
+    background-color: #ec5252;
+    border-color: #ec5252;
+    padding: 5px 12px;
+    font-size: 15px;
+    border-radius: 2px;
+    line-height: 1.35135;
+    font-weight: 600;
+}
+
+
+.student-feedback-box {
+    margin: 50px 0;
+}
+
+.student-feedback-box .student-feedback-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 15px;
+}
+
+.student-feedback-box .average-rating {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.student-feedback-box .average-rating .num {
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.student-feedback-box .average-rating .rating i {
+    font-size: 20px;
+    color: #f4c150;
+    margin-bottom: 5px;
+}
+
+.student-feedback-box .individual-rating ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.student-feedback-box .individual-rating ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.student-feedback-box .individual-rating ul li .progress{
+    width: 60%;
+    height: 20px;
+    border-radius: 3px;
+    background-color: #f2f3f5
+}
+.student-feedback-box .individual-rating ul li .progress-bar{
+    border-radius: 3px;
+    background-color: #a1a7b3;
+}
+.student-feedback-box .individual-rating .rating i {
+    font-size: 14px;
+    color: #dedfe0;
+}
+
+.student-feedback-box .individual-rating .rating i.filled {
+    color: #f4c150;
+}
+
+.student-feedback-box .individual-rating li > div:not(.progress) {
+    padding-left: 15px;
+}
+
+.student-feedback-box .individual-rating li > div:not(.progress) span:not(.rating) {
+    text-align: center;
+    padding-left: 10px;
+    color: #007791;
+}
+.student-feedback-box .reviews .reviews-title {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 0 20px;
+}
+
+.student-feedback-box .reviews ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.student-feedback-box .reviews .reviewer-details img {
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.student-feedback-box .reviews .reviewer-details .review-time .time {
+    color: #686f7a;
+}
+
+.student-feedback-box .reviews ul li {
+    padding: 30px 0;
+    border-top: 1px solid #dedfe0;
+}
+
+.student-feedback-box .reviews ul li:last-child {
+    border-bottom: 1px solid #dedfe0;
+}
+
+.student-feedback-box .reviews .review-details .rating i {
+    color: #dedfe0;
+    margin-bottom: 15px;
+}
+
+.student-feedback-box .reviews .review-details .rating i.filled {
+    color: #f4c150;
+}
+
+.student-feedback-box .reviews .review-details .review-text {
+    color: #505763;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.student-feedback-box .reviews {
+    margin-top: 30px;
+}
+.reviews .more-reviews-btn {
+    text-align: center;
+}
+
+.reviews .more-reviews-btn button {
+    border-radius: 2px;
+    border: 2px solid #007791;
+    color: #007791;
+    background: #fff;
+    padding: 11px 12px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.reviews .more-reviews-btn button:hover,
+.reviews .more-reviews-btn button:focus {
+    background-color: #e6f2f5;
+}

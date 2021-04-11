@@ -1,0 +1,96 @@
+
+
+.card {
+    border-radius: 0px !important;
+    background-color: #f7f8fa !important;
+    border:0px !important;
+}
+.course_card {
+    padding: 0px;
+    background-color: #F7F8FA;
+}
+.course_container {
+    background-color: #fff !important;
+}
+.course_col {
+    padding: 0px;
+}
+.course_header_col {
+    background-color: #29303b;
+    color: #fff;
+    padding: 9px 10px 9px;
+}
+.course_header_col img {
+    padding: 0px 0px;
+}
+.course_btn {
+    /*color: #95979a;*/
+    border: 1px solid #fff;
+    padding: 6px 16px;
+    color: #fff;
+}
+.rating_btn {
+    margin-top: 2px;
+}
+
+.rating_btn i {
+    border: 2px solid #FDCC0D;
+    border-radius: 25px;
+    padding:5px; 
+    color: #FDCC0D;
+}
+
+.get_certificate_button{
+    color:white;
+    margin-top: 2px;
+    margin-right: 7px;
+    margin-left: 110px !important;
+}
+.get_certificate_button:hover{
+    color: white;
+}
+
+.dropdown .drop{
+    position: absolute !important;
+    transform: translate3d(4px, 23px, 0px) !important;
+    top: 10px !important;
+    left: -213px !important; 
+    will-change: transform !important;
+    padding: 10px !important;
+    width: 250px  !important;
+}
+
+.drop li a {
+    float: left;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    left: 0;
+    color: black;
+    font-size: 15px;
+    font-weight: 30px;
+}
+
+.get_certificate_button i {
+    border: 2px solid #46c28e;
+    border-radius: 25px;
+    padding:5px; 
+    color: #46c28e
+}
+.course_btn:hover {
+    color: #fff;
+    border:1px solid #fff;
+}
+.lesson_duration{
+    border-radius: 5px;
+    padding-top: 8px;
+    color: #5C5D61;
+    font-size: 13px;
+    font-weight: 100;
+}
+.quiz-card {
+    border: 1px solid #dcdddf !important;
+}
+.bg-quiz-result-info {
+    background-color: #007791 !important;
+    padding: 13px !important;
+}
